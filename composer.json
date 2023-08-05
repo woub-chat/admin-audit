@@ -1,0 +1,35 @@
+{
+    "name": "bfg/admin-audit",
+    "description": "The auditing viewer for bfg admin",
+    "type": "bfg-admin-extension",
+    "keywords": ["laravel", "bfg", "lte", "admin", "extension", "admin-audit"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bfg"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0|^8.1",
+        "bfg/admin": "^5.3.8",
+        "owen-it/laravel-auditing": "^12.0|^13.0",
+        "bfg/attributes": "1.2.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Admin\\Extend\\AdminAudit\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\Extend\\AdminAudit\\ServiceProvider"
+            ]
+        }
+    }
+}
