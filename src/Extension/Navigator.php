@@ -19,6 +19,7 @@ class Navigator extends NavigatorExtensionProvider implements ActionWorkExtensio
     {
         $this->item('Audits')
             ->resource('audits', AuditController::class)
-            ->icon_broadcast_tower();
+            ->icon_broadcast_tower()
+            ->dontUseSearch();
     }
 }
