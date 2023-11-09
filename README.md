@@ -51,3 +51,15 @@ Open `configs/audit.php` and enable `console` config:
     'console' => true,
 ...
 ```
+## Add audit to model
+Add implement
+```php
+use OwenIt\Auditing\Contracts\Auditable;
+...
+class User extends Authenticatable implements Auditable
+{
+    use \OwenIt\Auditing\Auditable;
+    
+    ...
+}
+```
