@@ -14,7 +14,7 @@
         "php": "^8.0|^8.1",
         "bfg/admin": "^5.5.1|^6.0",
         "owen-it/laravel-auditing": "^12.0|^13.0",
-        "bfg/attributes": "1.2.4"
+        "bfg/attributes": "^1.2"
     },
     "require-dev": {},
     "autoload": {
