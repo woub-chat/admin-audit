@@ -1,20 +1,15 @@
 {
-    "name": "bfg/admin-audit",
+    "name": "woub-chat/admin-audit",
     "description": "The auditing viewer for bfg admin",
-    "type": "bfg-admin-extension",
-    "keywords": ["laravel", "bfg", "lte", "admin", "extension", "admin-audit"],
+    "type": "woub-chat-admin-extension",
+    "keywords": ["laravel", "lte", "admin", "extension", "admin-audit"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "bfg"
-        }
-    ],
     "prefer-stable": true,
     "require": {
         "php": "^8.0|^8.1",
-        "bfg/admin": "^5.5.1|^6.0",
+        "woub-chat/admin": "^5.5.1|^6.0",
         "owen-it/laravel-auditing": "^12.0|^13.1",
-        "bfg/attributes": "^1.2"
+        "woub-chat/attributes": "^1.2"
     },
     "require-dev": {},
     "autoload": {
