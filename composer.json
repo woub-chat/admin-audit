@@ -7,9 +7,9 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.0|^8.1",
-        "woub-chat/admin": "^5.5.1|^6.0",
+        "woub-chat/admin": "5.5.6.1|^6.0",
         "owen-it/laravel-auditing": "^12.0|^13.1",
-        "woub-chat/attributes": "^1.2"
+        "woub-chat/attributes": "^1.2.6"
     },
     "require-dev": {},
     "autoload": {
